@@ -1,0 +1,99 @@
+
+
+.hint {
+      visibility:hidden;
+      background-color:#FFFFD0;
+      border: 1px dashed #0000AA;
+	  height:23px;
+/*      margin-top:10px;
+      margin-bottom:10px;*/
+
+}
+
+#rotulos{
+   position: absolute;
+   top: 100px;
+   text-align: right;
+   margin-left: 10px;
+   width: 300;
+   margin-right:0px;
+   padding:5px;
+ /*border: 1px solid blue;*/
+}
+
+#erros{
+   position: absolute;
+   top:440px;
+   left:230px;
+   text-align: center;
+   margin-left: 10px;
+   width: 350px;
+   margin-right:0px;
+   padding:5px;
+   background-color: #FF0000;
+   box-shadow: 10px 10px 5px #888888;
+   border-radius:25px;
+   color: white;
+   visibility:hidden;
+ /*border: 1px solid blue;*/
+}
+
+#campos{
+   position: absolute;
+   top: 100px;
+   left: 330px;
+   text-align: left;
+   margin-left:0px;
+   padding:5px;
+   width: 250px;
+/*border: 1px solid blue;*/
+
+}
+#dicas{
+   position: absolute;
+   top: 100px;
+   left: 530px;
+   text-align: left;
+   margin-left:0;
+   padding:5px;
+/*border: 1px solid blue;*/
+
+}
+   
+table{
+ border-collapse: collapse;
+ border: 2px solid;
+}
+
+td{
+border: 1px solid;
+}
+
+body{
+  font-family: Verdana, Arial;
+  font-size: 12pt;
+  line-height:1.25em;
+}
+
+input, textarea, select{
+   color:#050;
+   font-family: Verdana, Arial;
+   font-size:84%;
+   font-weight:bold;
+   background-color:#eee;
+   border:1px solid;
+   border-top-color:#696;
+   border-left-color:#696;
+   border-right-color:#363;
+   border-bottom-color:#363;
+}
+
+#jogo{
+  float: left;
+  width: 50%;
+}
+
+#regras{
+  float: left;
+  width: 50%;
+}
